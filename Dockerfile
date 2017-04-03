@@ -1,2 +1,3 @@
- FROM jboss/wildfly
- ADD your-awesome-app.war /opt/jboss/wildfly/standalone/deployments/
+FROM jboss/wildfly
+ADD node-info.war /opt/jboss/wildfly/standalone/deployments/
+EXPOSE 8080
